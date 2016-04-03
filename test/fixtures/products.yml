@@ -13,7 +13,11 @@ two:
   price: 9.99
 
 ruby:
+<<<<<<< HEAD
   title: Programming Ruby 1.9
+=======
+  title:  Programming Ruby 1.9
+>>>>>>> 557f8d475fb12461944c01216d6b9c486e364e95
   description:
     Ruby is the fastest growing and most exciting dynamic language out there. If you need to get working programs delivered fast, you should add Ruby to your toolbox.
   price: 49.50
