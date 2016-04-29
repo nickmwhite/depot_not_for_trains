@@ -5,3 +5,4 @@ This is an app that will be worthless to the world, but (hopefully) an effective
 
 ### Bugs:
 * Product titles overlap product images
+* Links on the sidebar are broken
