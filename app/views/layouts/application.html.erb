@@ -22,9 +22,8 @@
       </div>
       <ul>
         <li><%= link_to "Home", store_path %></li>
-        <li><a href="http://www..../">Questions</a></li>
-        <li><a href="http://www..../">News</a></li>
-        <li><a href="http://www..../">Contact</a></li>
+        <li><%= link_to "Kittens", "http://placekitten.com/" %></li>
+        <li class="time"><%= Time.now.strftime("%m/%d/%Y %I:%M %p") %></li>
       </ul>
       <% if session[:user_id] %>
         <ul>
