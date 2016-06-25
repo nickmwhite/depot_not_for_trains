@@ -14,11 +14,12 @@ class OrdersControllerTest < ActionController::TestCase
   test "requires item in cart" do
     get :new
     assert_redirected_to store_path
-    assert_equal flash [:notice], 'Your cart is empty'
+    assert_equal flash[:notice], 'Your cart is empty dummy!'
   end
 
   test "should get new" do
-    item = Lineitem.newitem.build_cart
+    item = LineItem.new
+    item.build_cart
     item.product = products(:ruby)
     item.save!
     session[:cart_id] = item.cart.id
